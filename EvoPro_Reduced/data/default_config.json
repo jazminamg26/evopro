@@ -1,0 +1,18 @@
+{
+  "sequence_length": 60,
+  "alphabet": "ACDEFGHIKLMNPQRSTVWY",
+  "weights": {
+    "disorder": 1.0,
+    "hydrophobic_core": -1.5,
+    "charge_balance": 0.8,
+    "motif": -2.0
+  },
+  "hydrophobic_regions": [
+    {"start": 20, "end": 30}
+  ],
+  "target_charge": 0,
+  "motifs": [
+    {"pattern": "RGD", "positions": [10, 11, 12]}
+  ]
+}
+
